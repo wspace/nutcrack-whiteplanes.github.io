@@ -1,0 +1,20 @@
+/** **/
+.lang-c     { color: rgb( 85,  85,  85); }
+.lang-cpp   { color: rgb(241,  78, 126); }
+.lang-objc  { color: rgb( 72, 154, 252); }
+.lang-swift { color: rgb(253, 171,  80); }
+.lang-cs    { color: rgb( 31, 133,  19); }
+.lang-fs    { color: rgb(183,  78, 248); }
+.lang-pl    { color: rgb( 25, 153, 193); }
+.lang-php   { color: rgb( 80,  94, 147); }
+.lang-py    { color: rgb( 56, 115, 163); }
+.lang-rb    { color: rgb(111,  22,  25); }
+.lang-js    { color: rgb(240, 223, 101); }
+.lang-java  { color: rgb(175, 113,  37); }
+.lang-scala { color: rgb(218,  52,  53); }
+.lang-clj   { color: rgb(217,  89,  88); }
+.lang-hs    { color: rgb( 50, 179,  74); }
+.lang-erl   { color: rgb(182,  62, 151); }
+.lang-r     { color: rgb( 36, 142, 228); }
+.lang-jl    { color: rgb(161, 114, 184); }
+.lang-lua   { color: rgb(  2,  12, 126); }
