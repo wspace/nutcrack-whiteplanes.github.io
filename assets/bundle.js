@@ -27,19 +27,32 @@
 'use strict'
 
 var Application = React.createClass({
-  render: function() {
-    return (
-      <div className="container">
-        
-        <div className="container">
-        </div>
- 
-        <div className="container"> 
-        </div>
-
-      </div>
-    );
-  }
+    renderForItems: function() {
+        return ['cs', 'php', 'py', 'rb'].map(function(item, index){
+            var link = "https://github.com/whiteplanes/whiteplanes." + item;
+            var language = "lang lang-" + item;
+            return (
+                <li><a href={link} className={language}>●</a></li>
+            )
+        });
+    },
+    render: function() {
+        return (
+            <div className="container">
+                <div className="container">
+                    <header>
+                        <h1>Whiteplanes</h1>
+                        <p>Whitespace tried written in various programming languages</p>
+                    </header>
+                    <section>
+                        <ul className="list-inline">
+                            { this.renderForItems() }
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        );
+    }
 });
 
 ReactDOM.render(<Application />, document.getElementById('main'));

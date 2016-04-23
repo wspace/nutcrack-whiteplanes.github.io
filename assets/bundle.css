@@ -1,4 +1,5 @@
 /** **/
+.lang       { font-size: 18px; }
 .lang-c     { color: rgb( 85,  85,  85); }
 .lang-cpp   { color: rgb(241,  78, 126); }
 .lang-objc  { color: rgb( 72, 154, 252); }
@@ -18,3 +19,13 @@
 .lang-r     { color: rgb( 36, 142, 228); }
 .lang-jl    { color: rgb(161, 114, 184); }
 .lang-lua   { color: rgb(  2,  12, 126); }
+
+.container {
+    font-family: 'Crafty Girls', cursive;
+    color: #898989;
+    text-align: center;
+}
+
+:hover {
+    text-decoration: none;
+}
