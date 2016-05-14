@@ -28,7 +28,7 @@
 
 var Application = React.createClass({
     renderForItems: function() {
-        return ['swift', 'cs', 'fs', 'php', 'py', 'rb'].map(function(item, index){
+        return ['swift', 'cs', 'fs', 'php', 'py', 'rb', 'js', 'jl'].map(function(item, index){
             var link = "https://github.com/whiteplanes/whiteplanes." + item;
             var language = "lang lang-" + item;
             return (
